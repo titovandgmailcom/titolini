@@ -1,0 +1,123 @@
+[06-Oct-2025 21:31:52 Europe/Moscow] === PAYMENT CHECK STARTED ===
+[06-Oct-2025 21:31:52 Europe/Moscow] Order ID: 48, Payment ID: 30761ecd-000f-5001-9000-1552a0379fc8
+[06-Oct-2025 21:31:52 Europe/Moscow] Payment status from YooKassa: succeeded
+[06-Oct-2025 21:31:52 Europe/Moscow] Payment succeeded, calling handlePaymentSuccess...
+[06-Oct-2025 21:31:52 Europe/Moscow] === PAYMENT SUCCESS START ===
+[06-Oct-2025 21:31:52 Europe/Moscow] Order ID: 48, Payment ID: 30761ecd-000f-5001-9000-1552a0379fc8, Amount: 89.9
+[06-Oct-2025 21:31:52 Europe/Moscow] ✓ Order status updated
+[06-Oct-2025 21:31:52 Europe/Moscow] ✓ Payment transaction recorded
+[06-Oct-2025 21:31:52 Europe/Moscow] Order data: user_id=10, total=89.90, final=89.90
+[06-Oct-2025 21:31:52 Europe/Moscow] Calculated cashback: 4.5
+[06-Oct-2025 21:31:52 Europe/Moscow] ✓ Cashback 4.5 added
+[06-Oct-2025 21:31:52 Europe/Moscow] ✓ Total spent updated by 89.90
+[06-Oct-2025 21:31:52 Europe/Moscow] ✓ Cart cleared
+[06-Oct-2025 21:31:52 Europe/Moscow] === PAYMENT SUCCESS COMPLETE ===
+[06-Oct-2025 21:31:52 Europe/Moscow] ✓ handlePaymentSuccess completed successfully
+[06-Oct-2025 21:35:35 Europe/Moscow] === BEFORE QR GENERATION === Order ID: 49
+[06-Oct-2025 21:35:35 Europe/Moscow] Cart items count: 1
+[06-Oct-2025 21:35:35 Europe/Moscow] Cart items: Array
+(
+    [0] => Array
+        (
+            [id] => 101
+            [user_id] => 10
+            [product_id] => 1
+            [quantity] => 1
+            [added_at] => 2025-10-06 21:35:13
+            [name] => Молоко ВкусВилл 3.2%
+            [price] => 89.90
+            [old_price] => 
+            [image_url] => 
+            [unit] => 1л
+            [weight] => 1.030
+            [total] => 89.90
+        )
+
+)
+
+[06-Oct-2025 21:35:35 Europe/Moscow] Generated 1 QR codes for order 49
+[06-Oct-2025 21:43:02 Europe/Moscow] Add Bonus Points Error: There is already an active transaction
+[06-Oct-2025 21:43:02 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: There is no active transaction in /home/c/cz01249/public_html/includes/functions.php:316
+Stack trace:
+#0 /home/c/cz01249/public_html/includes/functions.php(316): PDO->rollBack()
+#1 /home/c/cz01249/public_html/customer/eco.php(24): scanQRCode(10, '641f42b2fbcbed5...')
+#2 {main}
+  thrown in /home/c/cz01249/public_html/includes/functions.php on line 316
+[07-Oct-2025 11:47:51 Europe/Moscow] === PAYMENT CHECK STARTED ===
+[07-Oct-2025 11:47:51 Europe/Moscow] Order ID: 51, Payment ID: 3076e765-000f-5001-8000-10ff0004e4d8
+[07-Oct-2025 11:47:51 Europe/Moscow] Payment status from YooKassa: succeeded
+[07-Oct-2025 11:47:51 Europe/Moscow] Payment succeeded, calling handlePaymentSuccess...
+[07-Oct-2025 11:47:51 Europe/Moscow] === PAYMENT SUCCESS START ===
+[07-Oct-2025 11:47:51 Europe/Moscow] Order ID: 51, Payment ID: 3076e765-000f-5001-8000-10ff0004e4d8, Amount: 83.9
+[07-Oct-2025 11:47:51 Europe/Moscow] ✓ Order status updated
+[07-Oct-2025 11:47:51 Europe/Moscow] ✓ Payment transaction recorded
+[07-Oct-2025 11:47:51 Europe/Moscow] Order data: user_id=10, total=89.90, final=83.90
+[07-Oct-2025 11:47:51 Europe/Moscow] Calculated cashback: 4.2
+[07-Oct-2025 11:47:51 Europe/Moscow] ✓ Cashback 4.2 added
+[07-Oct-2025 11:47:51 Europe/Moscow] ✓ Total spent updated by 89.90
+[07-Oct-2025 11:47:51 Europe/Moscow] ✓ Cart cleared
+[07-Oct-2025 11:47:51 Europe/Moscow] === PAYMENT SUCCESS COMPLETE ===
+[07-Oct-2025 11:47:51 Europe/Moscow] ✓ handlePaymentSuccess completed successfully
+[07-Oct-2025 11:48:37 Europe/Moscow] === BEFORE QR GENERATION === Order ID: 52
+[07-Oct-2025 11:48:37 Europe/Moscow] Cart items count: 1
+[07-Oct-2025 11:48:37 Europe/Moscow] Cart items: Array
+(
+    [0] => Array
+        (
+            [id] => 104
+            [user_id] => 10
+            [product_id] => 1
+            [quantity] => 1
+            [added_at] => 2025-10-07 11:48:15
+            [name] => Молоко ВкусВилл 3.2%
+            [price] => 89.90
+            [old_price] => 
+            [image_url] => 
+            [unit] => 1л
+            [weight] => 1.030
+            [total] => 89.90
+        )
+
+)
+
+[07-Oct-2025 11:48:37 Europe/Moscow] Generated 1 QR codes for order 52
+[07-Oct-2025 12:26:54 Europe/Moscow] === BEFORE QR GENERATION === Order ID: 53
+[07-Oct-2025 12:26:54 Europe/Moscow] Cart items count: 1
+[07-Oct-2025 12:26:54 Europe/Moscow] Cart items: Array
+(
+    [0] => Array
+        (
+            [id] => 106
+            [user_id] => 10
+            [product_id] => 1
+            [quantity] => 1
+            [added_at] => 2025-10-07 12:26:13
+            [name] => Молоко ВкусВилл 3.2%
+            [price] => 89.90
+            [old_price] => 
+            [image_url] => 
+            [unit] => 1л
+            [weight] => 1.030
+            [total] => 89.90
+        )
+
+)
+
+[07-Oct-2025 12:26:54 Europe/Moscow] Generated 1 QR codes for order 53
+[07-Oct-2025 12:27:45 Europe/Moscow] Generating QR codes for YooKassa order 54
+[07-Oct-2025 12:27:45 Europe/Moscow] Generated 1 QR codes for YooKassa order 54
+[07-Oct-2025 12:28:01 Europe/Moscow] === PAYMENT CHECK STARTED ===
+[07-Oct-2025 12:28:01 Europe/Moscow] Order ID: 54, Payment ID: 3076f0d1-000f-5000-b000-10e25a86aed9
+[07-Oct-2025 12:28:01 Europe/Moscow] Payment status from YooKassa: succeeded
+[07-Oct-2025 12:28:01 Europe/Moscow] Payment succeeded, calling handlePaymentSuccess...
+[07-Oct-2025 12:28:01 Europe/Moscow] === PAYMENT SUCCESS START ===
+[07-Oct-2025 12:28:01 Europe/Moscow] Order ID: 54, Payment ID: 3076f0d1-000f-5000-b000-10e25a86aed9, Amount: 84.9
+[07-Oct-2025 12:28:01 Europe/Moscow] ✓ Order status updated
+[07-Oct-2025 12:28:01 Europe/Moscow] ✓ Payment transaction recorded
+[07-Oct-2025 12:28:01 Europe/Moscow] Order data: user_id=10, total=89.90, final=84.90
+[07-Oct-2025 12:28:01 Europe/Moscow] Calculated cashback: 4.25
+[07-Oct-2025 12:28:01 Europe/Moscow] ✓ Cashback 4.25 added
+[07-Oct-2025 12:28:01 Europe/Moscow] ✓ Total spent updated by 89.90
+[07-Oct-2025 12:28:01 Europe/Moscow] ✓ Cart cleared
+[07-Oct-2025 12:28:01 Europe/Moscow] === PAYMENT SUCCESS COMPLETE ===
+[07-Oct-2025 12:28:01 Europe/Moscow] ✓ handlePaymentSuccess completed successfully

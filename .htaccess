@@ -1,0 +1,2 @@
+# API endpoints
+RewriteRule ^api/yookassa-webhook$ api/yookassa-webhook.php [L]
