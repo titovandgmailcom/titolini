@@ -1,2 +1,8 @@
-# API endpoints
-RewriteRule ^api/yookassa-webhook$ api/yookassa-webhook.php [L]
+AuthName 'Restricted Area'
+AuthType Basic
+AuthUserFile /home/c/cz01249/.authfile
+require valid-user
+
+Options +ExecCGI
+DirectoryIndex awstats.pl
+
